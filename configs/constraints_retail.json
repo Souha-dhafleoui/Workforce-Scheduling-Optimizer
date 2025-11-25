@@ -1,0 +1,28 @@
+{
+  "max_shift_hours": 8,
+  "min_rest_hours_between_shifts": 10,
+  "max_week_hours": 40,
+  "shift_templates": [
+    {
+      "name": "morning",
+      "start": 8,
+      "end": 14
+    },
+    {
+      "name": "afternoon",
+      "start": 13,
+      "end": 19
+    },
+    {
+      "name": "evening",
+      "start": 16,
+      "end": 22
+    }
+  ],
+  "role_requirements": {
+    "manager": {
+      "skill_min": 2,
+      "min_on_shift": 1
+    }
+  }
+}

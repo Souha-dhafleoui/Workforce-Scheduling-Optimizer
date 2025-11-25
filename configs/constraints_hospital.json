@@ -1,0 +1,23 @@
+{
+  "max_shift_hours": 12,
+  "min_rest_hours_between_shifts": 12,
+  "max_week_hours": 48,
+  "shift_templates": [
+    {
+      "name": "day",
+      "start": 7,
+      "end": 19
+    },
+    {
+      "name": "night",
+      "start": 19,
+      "end": 7
+    }
+  ],
+  "role_requirements": {
+    "ICU": {
+      "skill_min": 3,
+      "min_on_shift": 2
+    }
+  }
+}
